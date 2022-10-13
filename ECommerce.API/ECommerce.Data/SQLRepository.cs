@@ -149,7 +149,6 @@ namespace ECommerce.Data
             _logger.LogInformation(password);
             _logger.LogInformation(email);
 
-
             return user;
         }
 
@@ -185,6 +184,5 @@ namespace ECommerce.Data
 
             return UserId;
         }
-
     }
 }
